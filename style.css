@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display: grid;
     place-content: center center;
 
     background-image: url("space.jpg");
@@ -11,10 +11,19 @@ body {
 .box1 {
     background-color: rgba(255, 255, 255, 0.6);
     height: 20rem;
-    width: 20rem;
+    width: 22rem;
     border: 1px;
     border-radius: 25px;
 }
+
+.bild-och-rubrik-låda {
+    display: flex;
+    align-items: center, center;
+    gap: 1rem;
+
+}
+
+
 
 .box2 {
     background-color: rgba(255, 255, 255, 0.6);
@@ -22,7 +31,6 @@ body {
     width: 35rem;
     border: 1px;
     border-radius: 25px;
-
 }
 
 .wrapper {
@@ -40,5 +48,5 @@ img {
     border-radius: 150%;
     max-width: 100%;
     width: 8rem;
-
+    padding: 7px;
 }
