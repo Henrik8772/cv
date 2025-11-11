@@ -10,27 +10,93 @@ body {
 
 .box1 {
     background-color: rgba(255, 255, 255, 0.6);
-    height: 20rem;
+
     width: 22rem;
     border: 1px;
     border-radius: 25px;
+    flex-grow: 999;
 }
 
 .bild-och-rubrik-låda {
     display: flex;
-    align-items: center, center;
+    align-items: center;
     gap: 1rem;
-
 }
 
+.header {
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+}
 
+.header h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.contact-info {
+    margin-left: 10px;
+    line-height: 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-color: rgba(black, black, black, 0.6);
+}
+
+.skills {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: 1px;
+    border-radius: 25px;
+}
+
+.singing {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.music {
+    width: 99.99%;
+    background-color: purple;
+}
+
+.pilgrimage {
+    width: 100%;
+    background-color: blue;
+}
+
+.cuteness {
+    width: 100%;
+    background-color: pink;
+}
+
+.content {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
 
 .box2 {
     background-color: rgba(255, 255, 255, 0.6);
-    height: 20rem;
+
     width: 35rem;
     border: 1px;
     border-radius: 25px;
+    flex-grow: 999;
+}
+
+.info {
+    list-style-type: none;
+    padding: 1rem;
+    margin-left: 0;
 }
 
 .wrapper {
@@ -48,5 +114,5 @@ img {
     border-radius: 150%;
     max-width: 100%;
     width: 8rem;
-    padding: 7px;
+    padding: 6px;
 }
