@@ -124,6 +124,7 @@ body {
 }
 
 .experience {
+    margin: 0;
     padding-left: 1rem;
     line-height: 1;
     padding-bottom: 10px;
