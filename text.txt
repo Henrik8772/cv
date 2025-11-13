@@ -1,9 +1,0 @@
-    <p><a href="itsme.sherma@bugmail.com">itsme.sherma@bugmail.com</a></p>
-    <p><a href="(800)-467-4762">(800)-467-4762</a></p>
-    <p>Songclave</p>
-    <p>Pharloom</p>
-
-    display: inline-block;
-    line-height: 5px;
-    height: 10px;
-    padding-right: 1rem;
