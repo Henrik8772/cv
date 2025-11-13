@@ -23,4 +23,5 @@ Where flow content is expected.
 Content model for element span:
 Phrasing content.
 
-I have fixed the error 
+I have fixed the error now and the validator says it is fine.
+
