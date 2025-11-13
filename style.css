@@ -124,8 +124,9 @@ body {
 }
 
 .experience {
-    margin-left: 10px;
+    padding-left: 1rem;
     line-height: 1;
+    padding-bottom: 10px;
 }
 
 .gif,
