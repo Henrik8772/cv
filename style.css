@@ -123,8 +123,9 @@ body {
     min-inline-size: 50%;
 }
 
-main {
-    place-content: top;
+.experience {
+    margin-left: 10px;
+    line-height: 1;
 }
 
 .gif,
