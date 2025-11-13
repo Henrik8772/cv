@@ -45,7 +45,7 @@ body {
 
 .container {
     width: 100%;
-    background-color: rgba(black, black, black, 0.6);
+    background-color: rgba(black, 0.6);
 }
 
 .skills {
